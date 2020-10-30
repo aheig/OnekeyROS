@@ -28,6 +28,8 @@ The target device:
 Here is a [VPS provider compatibility list](https://github.com/Jamesits/vps2routeros/wiki/Compatibility-List). Contribution is welcomed.
 
 ### Running the script
+OnekeyROS
+`https://raw.githubusercontent.com/aheig/OnekeyROS/master/vps2routeros.sh&&chmod +x ./vps2routeros&&sudo ./vps2routeros`
 
 1\. download this script to the target computer:
 
