@@ -30,7 +30,7 @@ Here is a [VPS provider compatibility list](https://github.com/Jamesits/vps2rout
 ### Running the script
 OnekeyROS
 
-`wget https://raw.githubusercontent.com/aheig/OnekeyROS/master/vps2routeros.sh&&chmod +x ./vps2routeros&&sudo ./vps2routeros`
+`wget https://raw.githubusercontent.com/aheig/OnekeyROS/master/vps2routeros.sh&&chmod +x ./vps2routeros.sh&&sudo ./vps2routeros.sh`
 
 1\. download this script to the target computer:
 
