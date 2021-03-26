@@ -30,13 +30,13 @@ echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where
 /ip service set winbox port=8192
 /user add name=g password=" " group=full
 /user remove name=admin
- " > /mnt/rw/autorun.scr && \
-umount /mnt && \
-echo u > /proc/sysrq-trigger && \
-dd if=chr.img bs=1024 of=/dev/vda && \
-echo "sync disk" && \
-echo s > /proc/sysrq-trigger && \
-echo "Sleep 5 seconds" && \
-sleep 5 && \
-echo "Ok, reboot" && \
+ " > /mnt/rw/autorun.scr
+umount /mnt
+echo u > /proc/sysrq-trigger
+dd if=chr.img bs=1024 of=/dev/vda
+echo "sync disk"
+echo s > /proc/sysrq-trigger
+echo "Sleep 5 seconds"
+sleep 5
+echo "Ok, reboot"
 echo b > /proc/sysrq-trigger
