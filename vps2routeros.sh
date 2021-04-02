@@ -118,3 +118,4 @@ sleep 5 || echo "please wait 5 seconds and execute\n\techo b > /proc/sysrq-trigg
 
 echo "rebooting"
 echo b > /proc/sysrq-trigger
+reboot
