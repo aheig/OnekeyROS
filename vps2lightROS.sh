@@ -16,7 +16,7 @@
 
 #source： https://www.digitalocean.com/community/questions/installing-mikrotik-routeros
 
-wget https://download.mikrotik.com/routeros/6.47.9/chr-6.47.9.img.zip
+wget https://download.mikrotik.com/routeros/7.1beta6/chr-7.1beta6.img.zip
 gunzip -c chr.img.zip > chr.img
 mount -o loop,offset=33554944 chr.img /mnt
 ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1`
