@@ -1,5 +1,8 @@
 # vps2routeros
 
+折腾测试用light版本，简单快速
+生产用全RoureOS版本，便于扩展
+
 This script will wipe your current OS then install RouterOS on the target computer without requiring physical access. It has been proven to work with a wide range of VPSs.
 
 This project is previously hosted on a [Gist](https://gist.github.com/Jamesits/6f208ce814e815c1da39726c873de152), but the script become larger over time and a gist can not fit it anymore, so it is moved here.
