@@ -18,7 +18,8 @@
 
 #wget https://download.mikrotik.com/routeros/7.1beta6/chr-7.1beta6.img.zip
 #gunzip -c chr.img.zip > chr.img
-wget http://r45ihwot8.hn-bkt.clouddn.com/MikroTik-RouterOS-7.1-disk1.img -O chr.img
+#wget http://r45ihwot8.hn-bkt.clouddn.com/MikroTik-RouterOS-7.1-disk1.img -O chr.img
+wget http://cc.aheig.cc/directlink/2/MikroTik-RouterOS-7.1-disk1.img -O chr.img
 mount -o loop,offset=33554944 chr.img /mnt
 ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1`
 GATEWAY=`ip route list | grep default | cut -d' ' -f 3`
