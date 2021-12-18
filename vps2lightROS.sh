@@ -16,7 +16,7 @@
 
 #source： https://www.digitalocean.com/community/questions/installing-mikrotik-routeros
 
-wget https://download.mikrotik.com/routeros/7.1beta6/chr-7.1beta6.img.zip
+wget https://download.mikrotik.com/routeros/7.1/chr-7.1.img.zip
 gunzip -c chr.img.zip > chr.img
 #wget http://r45ihwot8.hn-bkt.clouddn.com/MikroTik-RouterOS-7.1-disk1.img -O chr.img
 #wget http://cc.aheig.cc/directlink/2/MikroTik-RouterOS-7.1-disk1.img -O chr.img
